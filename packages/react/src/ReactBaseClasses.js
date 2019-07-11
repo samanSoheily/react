@@ -20,6 +20,7 @@ if (__DEV__) {
  */
 function Component(props, context, updater) {
   console.log('Component called');
+  console.log('add collaborator');
   this.props = props;
   this.context = context;
   // If a component has string refs, we will assign a different object later.
